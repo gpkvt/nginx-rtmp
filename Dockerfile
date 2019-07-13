@@ -17,6 +17,7 @@ RUN cd /opt/nginx-release-1.16.0/ && ./auto/configure --add-module=/opt/nginx-rt
 COPY local.conf /local.conf
 RUN mkdir /run/php
 
+VOLUME /var/www/
 EXPOSE 1935
 EXPOSE 80
 
