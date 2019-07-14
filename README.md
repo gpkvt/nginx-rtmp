@@ -1,6 +1,6 @@
-# Docker-Image for nginx with RTMP-Module based on Debian Stretch. 
+# Docker-Image for nginx with RTMP-Module based on Debian Stretch
 
-The intended use is to have as an RTMP ressource for Tools like (https://streamlabs.com/streamlabs-obs)[Streamlabs OBS] or directly stream to (https://www.twitch.tv)[Twitch] in conjunction with IPTV encoding devices (e.g. (https://gosolo.tv/)[Live U Solo]).
+The intended use is to have as an RTMP ressource for Tools like [Streamlabs OBS](https://streamlabs.com/streamlabs-obs) or directly stream to [Twitch](https://www.twitch.tv) in conjunction with IPTV encoding devices, e.g. [LiveU Solo](https://gosolo.tv/).
 
 ## RTMP Endpoints
 
@@ -25,7 +25,7 @@ To build the image, check out this repo and run:
 
   ```docker build . -t 21x9/nginx-rtmp```
 
-Instead of build the image on your own you can also download the Images directly from hub.docker.com.
+Instead of build the image on your own you can also download the Images directly from [hub.docker.com](https://hub.docker.com/r/21x9/nginx-rtmp).
 
 ## Start
 
