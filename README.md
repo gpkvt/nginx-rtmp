@@ -1,6 +1,6 @@
 # Docker-Image for nginx with RTMP-Module based on Debian Stretch
 
-The intended use is to have as an RTMP ressource for Tools like [Streamlabs OBS](https://streamlabs.com/streamlabs-obs) or directly stream to [Twitch](https://www.twitch.tv) in conjunction with IPTV encoding devices, e.g. [LiveU Solo](https://gosolo.tv/).
+The intended use is to use this as an RTMP ressource for Tools like [Streamlabs OBS](https://streamlabs.com/streamlabs-obs) or to stream to [Twitch](https://www.twitch.tv) directly in conjunction with IPTV encoding devices, e.g. [LiveU Solo](https://gosolo.tv/).
 
 ## RTMP Endpoints
 
@@ -17,7 +17,7 @@ There are three RTMP-Endpoints configured (`local.conf`):
 
 ## Webserver / PHP-FPM
 
-nginx is configured to serve file via http (Port 80). php-fpm is also available (PHP 7.0), to add content use the Volume `/var/www/`.
+nginx is configured to serve files via http (Port 80). php-fpm is also available (PHP 7.0), to add content use the Volume `/var/www/`.
 
 ## Build
 
